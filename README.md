@@ -7,8 +7,16 @@
 
 ![image](https://github.com/CropCoder/Canopy_Coverage/assets/152723862/cfd512ca-abe2-4e6a-819e-c83b57db7b2d)
 
+## Use Macro to analyze multiple images
 
-## 2. Canopy Coverage analysis with FIJI (without Macro):
+1. Perform a color threshold as you would do without macro (see step 3 above) and note down the numbers, you used. The result and color threshold window can be discarded, you will only need the numbers.
+1. Drag and drop the macro file on to the FIJI Window and press the 'Run' button in the popped-up window.
+1. Enter the numbers from Step 1 in to the dialog window
+1. From now on follow the instructions given by the Macro.
+   * Read the dialogs carefully!
+   * All numerical result will be printed in the Log-window, save it then you finished your analysis!
+
+## Canopy Coverage analysis with FIJI (without Macro):
 
 ### Perform a perspective correction
 1. Open your clearly named canopy coverage image by drag and drop or File › Open
@@ -53,13 +61,3 @@
 1. You can reverse the last deletion with Cntr + Z
 
 ### Preform steps 3 and 4 again for the image without weeds and calculate the weed coverage from the difference.
-
-
-## Use Macro to analyze multiple images
-
-1. Perform a color threshold as you would do without macro (see step 3 above) and note down the numbers, you used. The result and color threshold window can be discarded, you will only need the numbers.
-1. Drag and drop the macro file on to the FIJI Window and press the 'Run' button in the popped-up window.
-1. Enter the numbers from Step 1 in to the dialog window
-1. From now on follow the instructions given by the Macro.
-   * Read the dialogs carefully!
-   * All numerical result will be printed in the Log-window, save it then you finished your analysis!
