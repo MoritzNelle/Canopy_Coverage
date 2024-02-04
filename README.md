@@ -5,7 +5,7 @@
    * If you have FIJI already installed, make sure, it is up to date: Help › Update...
 3. Open Fiji, it should look like this:
 
-![image](https://github.com/CropCoder/Canopy_Coverage/assets/152723862/cfd512ca-abe2-4e6a-819e-c83b57db7b2d)
+![alt text](https://raw.githubusercontent.com/CropCoder/Canopy_Coverage/main/READMEImages/image-5.png)
 
 ## Use Macro to analyze multiple images
 
@@ -24,8 +24,8 @@
    * Four small plus signs should appear on the image, drag them across the image until the frame is just outside the field of view.
    * Confirm with ENTER
 
-![image](https://github.com/CropCoder/Canopy_Coverage/assets/152723862/0365fc71-70ab-4fc7-b927-5828bd4291b8)
-![image](https://github.com/CropCoder/Canopy_Coverage/assets/152723862/5e7f81c7-ceaf-44e7-bc91-8e1fdd953a54)
+![alt text](https://raw.githubusercontent.com/CropCoder/Canopy_Coverage/main/READMEImages/image-6.png) ![alt text](https://raw.githubusercontent.com/CropCoder/Canopy_Coverage/main/READMEImages/image-7.png)
+
 
 
 
@@ -38,7 +38,7 @@
    5. Dark background: enabled
 2. Set Hue, Saturation and Brightness, so only plants are white and anything else is black.
 
-![alt text](image.png) ![alt text](image-1.png)
+![alt text](https://raw.githubusercontent.com/CropCoder/Canopy_Coverage/main/READMEImages/image-4.png) ![alt text](https://raw.githubusercontent.com/CropCoder/Canopy_Coverage/main/READMEImages/image-1.png)
 
 
 ### Create a histogram for the black and white image
@@ -49,15 +49,15 @@
 3. Note down the count for value=0 (background) and value=255 (canopy)
 4. Calculate the canopy coverage
 
-![alt text](image-2.png)
+![alt text](https://raw.githubusercontent.com/CropCoder/Canopy_Coverage/main/READMEImages/image-2.png)
 
 ### Erase all weeds from the RGB image (created in step 4.b)
 1. Double click on the color picker (green in the picture below) and select black as background color.
 1. Use the selection tools from Fiji (red in the picture below) to select one weed or a group of weeds at a time, when selected press the del key. The weeds should now be replaced by solid black color.
 
-![alt text](image-3.png)
+![alt text](https://raw.githubusercontent.com/CropCoder/Canopy_Coverage/main/READMEImages/image-5.png)
 
 1. Repeat, until there are no visible weeds left
-1. You can reverse the last deletion with Cntr + Z
+2. You can reverse the last deletion with Cntr + Z
 
 ### Preform steps 3 and 4 again for the image without weeds and calculate the weed coverage from the difference.
