@@ -9,7 +9,7 @@
 
 ## Use Macro to analyze multiple images
 
-1. Perform a color threshold as you would do without macro (see step 3 above) and note down the numbers, you used. The result and color threshold window can be discarded, you will only need the numbers.
+1. Perform a color threshold as you would do without macro and note down the numbers, you used. The result and color threshold window can be discarded, you will only need the numbers.
 1. Drag and drop the macro file on to the FIJI Window and press the 'Run' button in the popped-up window.
 1. Enter the numbers from Step 1 in to the dialog window
 1. From now on follow the instructions given by the Macro.
